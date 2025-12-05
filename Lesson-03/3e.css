@@ -1,0 +1,37 @@
+button {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.apply-button {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    height: 32px;
+    width: 210px;
+    margin-right: 8px;
+    border-radius: 105px;
+    transition: background-color 150ms;
+}
+
+.apply-button:hover {
+    background-color: rgb(6, 73, 139);
+}
+
+.save-button {
+    color: rgb(10, 102, 194);
+    background-color: white;
+    border-color: rgb(10, 102, 194);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 16px;
+    height: 32px;
+    width: 70px;
+    transition: border-width 150ms,
+                background-color 150ms;
+}
+
+.save-button:hover {
+    border-width: 2px;
+    background-color: rgb(196, 210, 250);
+}

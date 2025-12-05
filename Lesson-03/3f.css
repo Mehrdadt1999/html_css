@@ -1,0 +1,39 @@
+a {
+    color: rgb(0, 113, 133);
+}
+
+a:hover {
+    color: rgb(133, 80, 0);
+}
+
+.cart {
+    background-color: rgb(255, 216, 20); 
+    height: 30px; 
+    width: 120px;
+    border-style: none; 
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.cart:hover {
+    background-color: rgb(199, 168, 15);
+}
+.cart:active {
+    opacity: 0.6;
+}
+
+.buy {
+    background-color: rgb(255, 164, 28); 
+    height: 30px; 
+    width: 120px;
+    border-style: none; 
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.buy:hover {
+    background-color: rgb(175, 107, 5);
+}
+.buy:active {
+    opacity: 0.6;
+}
