@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>circled cat</title>
+        <style>
+            .cat-image {
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 100px;
+                vertical-align: middle;
+            }
+            .tweet-button {
+                background-color: rgb(29, 155, 240);
+                color: white;
+                font-weight: bold;
+                border: none;
+                border-radius: 18px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 16px;
+                padding-right: 16px;
+                cursor: pointer;
+                font-size: 15px;
+                transition: box-shadow 150ms;
+                vertical-align: middle;
+            }
+
+            input {
+                font-size: 20px;
+                border-style: none;
+                vertical-align: middle;
+                width: 300px;
+                padding-left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <img class="cat-image" src="images.jpg" alt="cat">
+        <input type="text" placeholder="What's happening?">
+        <button class="tweet-button">Tweet</button>
+    </body>
+</html>
